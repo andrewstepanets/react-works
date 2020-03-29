@@ -1,2 +1,3 @@
 # mod3-solution
-Module 3 Coding Assignment
+
+My training React projects
