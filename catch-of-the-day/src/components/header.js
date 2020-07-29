@@ -1,7 +1,6 @@
 import React from 'react';
 
-class Header extends React.Component{
-    render(){
+const Header = (props) => {
         return(
             <header className="top">
                 <h1>
@@ -13,11 +12,10 @@ class Header extends React.Component{
                     Day
                 </h1>
                 <h3 className="tagline">
-                    <span>Fresh Daily</span>
+                    <span>{props.tagline}</span>
                 </h3>
             </header>
         )
-    }
 }
 
 export default Header;
